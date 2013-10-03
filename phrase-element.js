@@ -55,7 +55,13 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (getting) {
 				var passphrase = localStorage.getItem('passphrase');
 				if (final_transcript == passphrase) {
-					document.body.classList.add('ok');
+					var dialog = document.createElement('dialog');
+					dialog.textContent = 'Success!';
+					dialog.addEventListener('click', function() {
+						dialog.close();
+					});
+					document.body.appendChild(dialog);
+					dialog.showModal();
 				}
 				getting = false;
 // Create a new passphrase; if confirmed, save it

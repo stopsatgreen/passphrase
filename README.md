@@ -11,6 +11,7 @@ _Currently works only on Chrome Canary with_ **experimental Web Platform feature
 * HTML templates for the content of the custom element
 * Shadow DOM to hide the controls from the DOM
 * Web Speech API to set/get the passphrase
+* The `dialog` element and API
 
 ##Important note##
 
