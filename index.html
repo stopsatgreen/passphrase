@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<title>Speech recognition password</title>
+	<!-- Styles -->
+	<style>
+	.ok { background-color: green; }
+	#interim_span { color: silver; }
+	</style>
+</head>
+<body>
+	<template id="phrase-input">
+		<style>
+		@host {
+			input { border: none; margin: 0; padding: 0; }
+		}
+		p { display: inline-block; margin: 0; }
+		</style>
+		<button id="set">Set</button>
+		<p id="final_span"></p>
+	</template>
+	<input is="phrase-input" type="password">
+	<button id="get">Get</button>
+	<!-- Scripts -->
+<script src="phrase-element.js"></script>
+</body>
+</html>
