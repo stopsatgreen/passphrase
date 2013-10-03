@@ -16,3 +16,12 @@ _Currently works only on Chrome Canary with_ **experimental Web Platform feature
 ##Important note##
 
 Currently only stores the passphrase in local storage; obviously to make this practical it would need to be salted and hashed, at least.
+
+##To do##
+
+* Make it use real storage
+* Better visual design and feedback
+* More informative error handling
+* Fallback to text if speech retrieval doesn't work
+* Better fallback for non-supported browsers
+* Streamline some of the hacky script
