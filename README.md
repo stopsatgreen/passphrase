@@ -5,6 +5,12 @@ Uses Web Speech API to set a passphrase which can be stored safely, then retriev
 
 _Currently works only on Chrome Canary with_ **experimental Web Platform features** _flag enabled._
 
+###Demo
+
+<a href="https://rawgithub.com/stopsatgreen/passphrase/master/index.html">
+![image](https://f.cloud.github.com/assets/39191/1271344/4c5303a4-2d1a-11e3-9e21-575c687f0166.png)
+</a>
+
 ##Experimental features##
 
 * Custom elements to extend a password input
